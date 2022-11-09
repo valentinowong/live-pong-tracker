@@ -2,7 +2,7 @@
   "name": "live-pong-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https//valentinowong/.github.io",
+  "homepage": "https://valentinowong.github.io/live-pong-tracker",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
