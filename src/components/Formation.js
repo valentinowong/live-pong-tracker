@@ -32,19 +32,19 @@ const Formation = (props) => {
     const renderTeamTwo = () => {
         return(
             <div>
-                <div className="fourth-row">
+                <div className="row">
                     <img id="7" src={FullCup}/>
                 </div>
-                <div className="third-row">
+                <div className="row">
                     <img id="4" src={FullCup}/>
                     <img id="5" src={FullCup}/>
                     <img id="6" src={FullCup}/>
                 </div>
-                <div className="second-row">
+                <div className="row">
                     <img id="2" src={FullCup}/>
                     <img id="3" src={FullCup}/>
                 </div>
-                <div className="first-row">
+                <div className="row">
                     <img id="1" src={FullCup}/>
                 </div>
             </div>
