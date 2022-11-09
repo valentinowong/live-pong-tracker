@@ -1,9 +1,9 @@
 .formation-card {
     border: 2px solid #00693E;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     direction: flex;
-    min-width: 150px;
+    min-width: 125px;
   }
 
 .formation-card img:active {

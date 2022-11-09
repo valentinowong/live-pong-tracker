@@ -1,7 +1,7 @@
 .player-card {
   border: 2px solid #00693E;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
 }
