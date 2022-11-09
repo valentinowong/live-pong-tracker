@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/live-pong-tracker/static/css/main.64fc13a5.css",
-    "main.js": "/live-pong-tracker/static/js/main.51b806aa.js",
+    "main.css": "/live-pong-tracker/static/css/main.473e897a.css",
+    "main.js": "/live-pong-tracker/static/js/main.8b421060.js",
     "static/js/787.f9a4d11c.chunk.js": "/live-pong-tracker/static/js/787.f9a4d11c.chunk.js",
     "static/media/logo.svg": "/live-pong-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/live-pong-tracker/index.html",
-    "main.64fc13a5.css.map": "/live-pong-tracker/static/css/main.64fc13a5.css.map",
-    "main.51b806aa.js.map": "/live-pong-tracker/static/js/main.51b806aa.js.map",
+    "main.473e897a.css.map": "/live-pong-tracker/static/css/main.473e897a.css.map",
+    "main.8b421060.js.map": "/live-pong-tracker/static/js/main.8b421060.js.map",
     "787.f9a4d11c.chunk.js.map": "/live-pong-tracker/static/js/787.f9a4d11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64fc13a5.css",
-    "static/js/main.51b806aa.js"
+    "static/css/main.473e897a.css",
+    "static/js/main.8b421060.js"
   ]
 }
