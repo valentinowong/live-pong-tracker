@@ -1,0 +1,12 @@
+.formation-card {
+    border: 2px solid #00693E;
+    border-radius: 10px;
+    padding: 10px;
+    direction: flex;
+    min-width: 150px;
+  }
+
+.formation-card img:active {
+    background-color: black;
+    border-radius: 5px;
+}
