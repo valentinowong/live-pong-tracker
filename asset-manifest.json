@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/live-pong-tracker/static/css/main.9f517aab.css",
+    "main.css": "/live-pong-tracker/static/css/main.64fc13a5.css",
     "main.js": "/live-pong-tracker/static/js/main.51b806aa.js",
     "static/js/787.f9a4d11c.chunk.js": "/live-pong-tracker/static/js/787.f9a4d11c.chunk.js",
     "static/media/logo.svg": "/live-pong-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/live-pong-tracker/index.html",
-    "main.9f517aab.css.map": "/live-pong-tracker/static/css/main.9f517aab.css.map",
+    "main.64fc13a5.css.map": "/live-pong-tracker/static/css/main.64fc13a5.css.map",
     "main.51b806aa.js.map": "/live-pong-tracker/static/js/main.51b806aa.js.map",
     "787.f9a4d11c.chunk.js.map": "/live-pong-tracker/static/js/787.f9a4d11c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f517aab.css",
+    "static/css/main.64fc13a5.css",
     "static/js/main.51b806aa.js"
   ]
 }
