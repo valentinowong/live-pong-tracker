@@ -11,6 +11,7 @@ const Team = (props) => {
             <Player/>
             <Formation name={props.name}/>
             <Player/>
+
         </div>
     )
 }

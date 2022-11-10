@@ -1,14 +1,18 @@
 .App {
   text-align: center;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: 022E1C;
+  min-width: 100vw;
 }
 
 .App-header {
-  font-family: roboto;
-  min-height: 100vh;
-  min-width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: 022E1C;
+  min-height: 0.25vh;
+}
+
+.App-main {
+  min-height: 0.50vh;
 }
