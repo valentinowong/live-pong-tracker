@@ -8,9 +8,9 @@ const Team = (props) => {
 
     return(
         <div className="team-card">
-            <Player/>
+            <Player name={props.name}/>
             <Formation name={props.name}/>
-            <Player/>
+            <Player name={props.name}/>
 
         </div>
     )

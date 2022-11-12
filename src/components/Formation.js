@@ -39,6 +39,18 @@ const Formation = (props) => {
         ]
     );
 
+    const fullCupCount = cups.reduce((counter,obj) => {
+        if (obj.status === 'full') counter += 1
+        return counter;
+    }, 0);
+
+    const halfCupCount = cups.reduce((counter,obj) => {
+        if (obj.status === 'half') counter += 1
+        return counter;
+    }, 0);
+
+    const cupTotal = fullCupCount + 0.5*halfCupCount
+
     const renderCup = (cupId) => {
         
         const cup = cups.find(cup => cup.id === cupId)
@@ -83,6 +95,11 @@ const Formation = (props) => {
     const renderTeamOne = () => {
         return(
             <div>
+                <div className="cupCount">
+                    <p>{fullCupCount} Full Cups</p>
+                    <p className='bottom-border'>{halfCupCount} Half Cups</p>
+                    <p>{cupTotal} Total Cups</p>
+                </div>
                 <div className="row">
                     {renderCup(7)}
                 </div>
@@ -119,6 +136,11 @@ const Formation = (props) => {
                 </div>
                 <div className="row">
                     {renderCup(7)}
+                </div>
+                <div className="cupCount">
+                    <p>{fullCupCount} Full Cups</p>
+                    <p className='bottom-border'>{halfCupCount} Half Cups</p>
+                    <p>{cupTotal} Total Cups</p>
                 </div>
             </div>
         )

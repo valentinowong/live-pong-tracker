@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Player.css';
 
-const Player = () => {
+const Player = (props) => {
     const [name, setName] = useState("Player")
     const [editName, setEditName] = useState(false)
     const [hits, setHits] = useState(0);
@@ -50,7 +50,7 @@ const Player = () => {
     }
 
     return (
-        <div className="player-card">
+        <div className={`player-card ${props.name}`}>
             { 
                 editName ?
                 <form onSubmit={ () => {setEditName(!editName)}}>

@@ -6,6 +6,14 @@
   flex-direction: column;
 }
 
+.one {
+  justify-content: flex-start;
+}
+
+.two {
+  justify-content: flex-end;
+}
+
 label {
   font-weight: bold;
 }
